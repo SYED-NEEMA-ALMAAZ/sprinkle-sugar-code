@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🍰 Girlypop Chocolate Cake Recipe</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="card">
+    <h1>✨🍫 Chocolate Cake 🍰✨</h1>
+    <img src="cake.jpg" alt="Chocolate Cake" class="recipe-img glitter-border" />
+
+    <div class="info">
+      <p>⏱ Prep Time: 45 mins</p>
+      <p>🍽 Serves: 6 cuties</p>
+    </div>
+
+    <button id="toggleIngredients">Show Ingredients 💖</button>
+    <ul id="ingredients" class="hidden sparkle-text">
+      <li>2 cups flour</li>
+      <li>1 cup sugar</li>
+      <li>1 cup milk</li>
+      <li>2 eggs</li>
+      <li>1/2 cup cocoa powder</li>
+    </ul>
+
+    <button id="toggleSteps">Show Steps 🍓</button>
+    <ol id="steps" class="hidden sparkle-text">
+      <li>Preheat oven to 350°F (175°C).</li>
+      <li>Mix dry ingredients together.</li>
+      <li>Add wet ingredients and mix well.</li>
+      <li>Pour into a greased pan.</li>
+      <li>Bake for 30–35 minutes. Enjoy!</li>
+    </ol>
+
+    <button id="startBtn">Start Cooking ✨</button>
+    <div id="progressBar"><div id="progress"></div></div>
+    <button id="nextStep" class="hidden">Next 👉</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
